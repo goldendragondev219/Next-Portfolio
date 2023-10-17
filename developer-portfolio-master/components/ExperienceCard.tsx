@@ -11,11 +11,9 @@ import Fade from 'react-reveal/Fade';
 import { ExperienceType } from '../types/sections';
 
 const ExperienceCard = ({
-  companyLogo,
   company,
   role,
   date,
-  desc,
   descBullets,
 }: ExperienceType) => {
   return (
@@ -50,7 +48,7 @@ const ExperienceCard = ({
             </CardSubtitle>
             <CardSubtitle>{date}</CardSubtitle>
             <CardText tag="div" className="description my-3 text-left">
-              {desc}
+              {/* {desc} */}
               <ul>
                 {descBullets
                   ? descBullets.map((desc) => {

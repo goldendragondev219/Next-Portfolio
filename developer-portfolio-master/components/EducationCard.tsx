@@ -9,9 +9,6 @@ const EducationCard = ({
   schoolName,
   subHeader,
   duration,
-  desc,
-  grade,
-  descBullets,
 }: EducationType) => {
   return (
     <Fade left duration={2000}>
@@ -27,19 +24,19 @@ const EducationCard = ({
               <Badge color="info" className="mr-1">
                 {duration}
               </Badge>
-              {grade && (
+              {/* {grade && (
                 <Badge color="primary" className="mr-1">
                   {grade}
                 </Badge>
-              )}
-              <p className="description mt-3">{desc}</p>
+              )} */}
+              {/* <p className="description mt-3">{desc}</p>
               <ul>
                 {descBullets
                   ? descBullets.map((desc) => {
                       return <li key={desc}>{desc}</li>;
                     })
                   : null}
-              </ul>
+              </ul> */}
             </div>
           </div>
         </CardBody>
