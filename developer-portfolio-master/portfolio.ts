@@ -193,7 +193,7 @@ export const showContactUs: boolean = true;
 export const seoData: SEODataType = {
   title: 'Amanda Eleid',
   description:
-    'A passionate Full Stack Web Developer and Blockchain Developer.',
+    '',
   author: 'Amanda Eleid',
   // image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
