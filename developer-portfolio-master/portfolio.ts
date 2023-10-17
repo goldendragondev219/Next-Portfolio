@@ -191,19 +191,19 @@ export const showContactUs: boolean = true;
 
 // See object prototype on /types/section.ts page
 export const seoData: SEODataType = {
-  title: 'Hanzla Tauqeer',
+  title: 'Amanda Eleid',
   description:
     'A passionate Full Stack Web Developer and Blockchain Developer.',
-  author: 'Hanzla Tauqeer',
-  image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
+  author: 'Amanda Eleid',
+  // image: 'https://avatars3.githubusercontent.com/u/59178380?v=4',
   url: 'https://developer-portfolio-1hanzla100.vercel.app',
   keywords: [
     'Hanzla',
-    'Hanzla Tauqeer',
+    'Amanda Eleid',
     '@1hanzla100',
     '1hanzla100',
     'Portfolio',
     'Hanzla Portfolio ',
-    'Hanzla Tauqeer Portfolio',
+    'Amanda Eleid Portfolio',
   ],
 };
